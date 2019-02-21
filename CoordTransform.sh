@@ -72,7 +72,7 @@ echo "processing $basename"
 
 ## non-linear transform
 echo "Converting rois from MNI space to subject space w/ linear and non-linear warp..."
-antsApplyTransforms -d 3 -i $file -r $SUBBRAIN -o output/rois/$basename -t [t1_to_mni_1InverseWarp.nii.gz,0] -t [t1_to_mni_0GenericAffine.mat,1]
+antsApplyTransforms -d 3 -i $file -r $SUBBRAIN -o output/rois/$basename -t t1_to_mni_1InverseWarp.nii.gz -t [t1_to_mni_0GenericAffine.mat,1]
 
 echo "Done."
 
