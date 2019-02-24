@@ -7,7 +7,7 @@ set -e
 rois=rois/
 SUBBRAIN=$(jq -r .t1 config.json)
 SUBMASK=$(jq -r .mask config.json)
-
+echo "$SUBBRAIN"
 #if [ ! -z "$roisBL" ];
 #then
 #rois=roisBL
@@ -18,8 +18,8 @@ SUBMASK=$(jq -r .mask config.json)
 #rois=wget(roisWeb)
 #fi
 
-#MNI=/HCPpipelines/global/templates/MNI152_T1_1mm_brain.nii.gz
-#MSK=/HCPpipelines/global/templates/MNI152_T1_1mm_brain_mask.nii.gz
+MNI=/HCPpipelines/global/templates/MNI152_T1_1mm_brain.nii.gz
+MSK=/HCPpipelines/global/templates/MNI152_T1_1mm_brain_mask.nii.gz
 
 #MNI=/N/dc2/projects/lifebid/hayashis/forbrent/prf/MNI152_T1_2mm_brain_mask_dil.nii.gz
 #MSK=/N/dc2/projects/lifebid/hayashis/forbrent/prf/MNI152_T1_2mm.nii.gz
@@ -70,9 +70,11 @@ echo "processing $basename"
 #echo "Converting points from MNI space to subject space w/ linear warp..."
 #antsApplyTransforms -d 3 -i file -o sub_aff_coords.csv -t [t1_to_mni_0GenericAffine.mat,1]
 
+echo "$file"
+
 ## non-linear transform
 echo "Converting rois from MNI space to subject space w/ linear and non-linear warp..."
-antsApplyTransforms -d 3 -i $file -r $SUBBRAIN -o output/rois/$basename -t t1_to_mni_1InverseWarp.nii.gz -t [t1_to_mni_0GenericAffine.mat,1]
+antsApplyTransforms -d 3 -i $file -r $SUBBRAIN -o output/rois/$basename -t t1_to_mni_1InverseWarp.nii.gz -t [t1_to_mni_0GenericAffine.mat,1] -v
 
 echo "Done."
 
