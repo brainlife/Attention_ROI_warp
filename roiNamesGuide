@@ -1,0 +1,6 @@
+L_FEF_r10_sphere_bin.nii.gz    ->       ROI0001.nii.gz
+L_LIP_r10_sphere_bin.nii.gz    ->       ROI0002.nii.gz
+L_phPITd_r10_sphere_bin.nii.gz ->       ROI0003.nii.gz
+R_FEF_r10_sphere_bin.nii.gz    ->       ROI0004.nii.gz
+R_LIP_r10_sphere_bin.nii.gz    ->       ROI0005.nii.gz
+R_phPITd_sphere_bin.nii.gz     ->       ROI0006.nii.gz
