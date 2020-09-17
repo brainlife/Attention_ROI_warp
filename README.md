@@ -43,7 +43,7 @@ Visit [this site](https://doi.org/10.25663/brainlife.app.168) to run this app on
 
 ### Running Locally (on your machine) using singularity & docker
 
-Because this is compiled code which runs on singularity, you can download the repo and [run it locally with minimal setup](https://github.com/brainlife/Attention_ROI_warp/blob/276bbc6210cf6dbc5b715e9327ad89e091634a8a/main#L9.  
+Because this is compiled code which runs on singularity, you can download the repo and [run it locally with minimal setup]https://github.com/brainlife/Attention_ROI_warp/blob/276bbc6210cf6dbc5b715e9327ad89e091634a8a/main#L9.  
 
 ### Running Locally (on your machine)
 
