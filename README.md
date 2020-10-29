@@ -26,6 +26,8 @@ This is a custom made app designed to warp a set of [attention related ROIS loca
 [SANI FUNDING GOES HERE]
 
 ### References 
+[Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019).](https://doi.org/10.1038/s41597-019-0073-y)
+
 **The human attentional control network includes a ventro-temporal cortical node**,
 _Ilaria Sani, Heiko Stemmann, Bradley Caron, Daniel Bullock, Torsten
 Stemmler, Manfred Fahle, Franco Pestilli, Winrich A. Freiwald_
