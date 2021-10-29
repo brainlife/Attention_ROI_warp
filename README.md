@@ -1,37 +1,26 @@
-[![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
-[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.168-blue.svg)](https://doi.org/10.25663/brainlife.app.168)
+
 
 # Attention ROI warp
-This is a custom made app designed to warp a set of [attention related ROIS located in MNI space](https://github.com/brainlife/Attention_ROI_warp/tree/master/rois) to individual subject space.
+This is a custom made app designed to warp a set of ACC and IC ROIS to individual subject space.
 
 ### Authors
 - [Daniel Bullock](https://github.com/DanNBullock) (dnbulloc@iu.edu)
 
 ### Primary User
-- [Ilaria Sani](https://github.com/IlariaSani) (ila.gina@virgilio.it)
+- TBD
 
 ### Contributors
-- [Soichi Hayashi](https://github.com/soichih) (hayashis@iu.edu)
+)
 
 ### Project Director
-- [Franco Pestilli](https://github.com/francopestilli) (franpest@indiana.edu)
+
 
 ### Funding 
-[![NSF-BCS-1734853](https://img.shields.io/badge/NSF_BCS-1734853-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1734853)
-[![NSF-BCS-1636893](https://img.shields.io/badge/NSF_BCS-1636893-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1636893)
-[![NSF-ACI-1916518](https://img.shields.io/badge/NSF_ACI-1916518-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1916518)
-[![NSF-IIS-1912270](https://img.shields.io/badge/NSF_IIS-1912270-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1912270)
-[![NIH-NIBIB-R01EB029272](https://img.shields.io/badge/NIH_NIBIB-R01EB029272-green.svg)](https://grantome.com/grant/NIH/R01-EB029272-01)
-[![NIMH-T32-5T32MH103213-05](https://img.shields.io/badge/NIMH_T32-5T32MH103213--05-blue.svg)](https://projectreporter.nih.gov/project_info_description.cfm?aid=9725739)
-[SANI FUNDING GOES HERE]
+
 
 ### References 
 [Avesani, P., McPherson, B., Hayashi, S. et al. The open diffusion data derivatives, brain data upcycling via integrated publishing of derivatives and reproducible open cloud services. Sci Data 6, 69 (2019).](https://doi.org/10.1038/s41597-019-0073-y)
 
-**The human attentional control network includes a ventro-temporal cortical node**,
-_Ilaria Sani, Heiko Stemmann, Bradley Caron, Daniel Bullock, Torsten
-Stemmler, Manfred Fahle, Franco Pestilli, Winrich A. Freiwald_
-**UNDER REVIEW**
 
 [ANTs](http://picsl.upenn.edu/software/ants/)
 
